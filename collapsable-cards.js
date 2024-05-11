@@ -59,6 +59,7 @@ class CollapsableCards extends HTMLElement {
 		this.injectStyles(this, 'ha-expansion-panel { --expansion-panel-content-padding: 0px }')
 		this.injectStyles(this, 'ha-expansion-panel { --expansion-panel-summary-padding: 0px }')
 		this.injectStyles(this, 'ha-expansion-panel { background-color: white }')
+		this.injectStyles(this, 'ha-expansion-panel { border: 0px }')
 		this.appendChild(card);
 
 		// Calculate card size
